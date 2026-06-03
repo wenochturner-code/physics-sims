@@ -9,6 +9,9 @@ A collection of physics simulations built with Python, NumPy, and Pygame.
 - **Inelastic** - momentum conserved, energy lost (coefficient of restitution = 0.7)
 - **Perfectly Inelastic** - balls stick together, only momentum conserved
 
+### Pendulum
+- **Pendulum Motion** - numerical integration of equation of motion, displays angle, angular velocity, and period
+
 ## Requirements
 pip install pygame numpy
 
@@ -17,4 +20,5 @@ pip install pygame numpy
 python collisions/elastic.py
 python collisions/inelastic.py
 python collisions/perfectly_inelastic.py
+python pendulum/pendulum.py
 ```
