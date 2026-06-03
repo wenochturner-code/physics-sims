@@ -13,7 +13,8 @@ A collection of physics simulations built with Python, NumPy, and Pygame.
 pip install pygame numpy
 
 ## Run
-## Run
+```
 python collisions/elastic.py
 python collisions/inelastic.py
 python collisions/perfectly_inelastic.py
+```
