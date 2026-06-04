@@ -12,13 +12,17 @@ A collection of physics simulations built with Python, NumPy, and Pygame.
 ### Pendulum
 - **Pendulum Motion** - numerical integration of equation of motion, displays angle, angular velocity, and period
 
+### Projectile
+- **Projectile Motion (no drag)** - Euler integration, resets on ground impact
+
 ## Requirements
 pip install pygame numpy
 
 ## Run
 ```
-python collisions/elastic.py
-python collisions/inelastic.py
+python collisions/elastic_collision.py
+python collisions/inelastic_collision.py
 python collisions/perfectly_inelastic.py
 python pendulum/pendulum.py
+python projectile/projectile.py
 ```
